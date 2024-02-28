@@ -18,7 +18,7 @@ export default function Home() {
     const fetchDataHouses = async () => {
       try {
         const response = await fetch(
-          `https://wizard-world-api.herokuapp.com/houses`
+          `https://backendhouses-41jhminh3-ondairos.vercel.app/houses`
         );
         const allData = await response.json();
         setHouses(allData);

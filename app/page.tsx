@@ -17,9 +17,7 @@ export default function Home() {
   useEffect(() => {
     const fetchDataHouses = async () => {
       try {
-        const response = await fetch(
-          `https://backendhouses-41jhminh3-ondairos.vercel.app/houses`
-        );
+        const response = await fetch(`https://backendhouses.vercel.app/houses`);
         const allData = await response.json();
         setHouses(allData);
         setLoading(false);

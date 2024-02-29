@@ -47,13 +47,13 @@ const Card = ({ name, animal, founder, houseColors }: props) => {
 
     // if color1 is not included in cssColors return black
     if (!cssColors.includes(colors[0].toLowerCase())) {
-      setColor1("black");
+      setColor1("white");
     } else {
       setColor1(colors[0].toLowerCase());
     }
     // if color2 is not included in cssColors return white
     if (!cssColors.includes(colors[2].toLowerCase())) {
-      setColor2("white");
+      setColor2("black");
     } else {
       setColor2(colors[2].toLowerCase());
     }

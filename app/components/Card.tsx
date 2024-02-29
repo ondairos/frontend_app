@@ -58,7 +58,6 @@ const Card = ({ name, animal, founder, houseColors }: props) => {
       setColor2(colors[2].toLowerCase());
     }
   }, [houseColors]);
-  console.log(color1, color2);
 
   return (
     <div className="card">

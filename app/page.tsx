@@ -8,6 +8,7 @@ type props = {
   name: string;
   animal: string;
   founder: string;
+  houseColours: string;
 };
 
 export default function Home() {
@@ -40,6 +41,7 @@ export default function Home() {
             name={house.name}
             animal={house.animal}
             founder={house.founder}
+            houseColors={house.houseColours}
           />
         ))
       )}

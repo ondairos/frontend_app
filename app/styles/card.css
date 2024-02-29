@@ -28,19 +28,6 @@
   border-radius: 0.3rem;
 }
 
-.Gryffindor {
-  background: linear-gradient(to right, #ffffff 0%, #000000 100%);
-}
-.Slytherin {
-  background: linear-gradient(to right, #048104 0%, #b7b7b7 100%);
-}
-.Ravenclaw {
-  background: linear-gradient(to right, #ffffff 0%, #000000 100%);
-}
-.Hufflepuff {
-  background: linear-gradient(to right, #f9f900 0%, #000000 100%);
-}
-
 .founderParagraph {
   font-size: 0.8rem;
   margin-top: 0.8rem;
